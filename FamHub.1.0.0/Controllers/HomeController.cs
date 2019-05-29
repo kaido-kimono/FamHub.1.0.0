@@ -15,6 +15,7 @@ namespace FamHub._1._0._0.Controllers
             return View("Acceuil");
         }
 
+        [HttpPost]
         public ViewResult CreationCompte()
         {
             return View();

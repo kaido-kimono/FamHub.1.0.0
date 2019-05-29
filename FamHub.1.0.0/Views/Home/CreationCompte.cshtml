@@ -1,4 +1,7 @@
 ﻿
+@{
+    Layout = null;
+}
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,8 +10,23 @@
 <body>
     <form action="CreationCompte" method="post">
         <p>
-
+            <label for="Nom">Nom : </label>
+            <input for="Nom" />
         </p>
+        <p>
+            <label for="PostNom">PostNom : </label>
+            <input for="Postnom"/>
+        </p>
+        <p>
+            <label for="Prenom">Prenom : </label>
+            <input for="Prenom" />
+        </p>
+        <p>
+            <label for="MotDePasse">Mot de passe : </label>
+            <input  for="MotDePasse"/>
+        </p>
+
     </form>
+    <button type="submit"><a asp-action="">creer</a></button>
 </body>
 </html>
