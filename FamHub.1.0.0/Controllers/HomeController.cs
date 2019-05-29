@@ -20,7 +20,5 @@ namespace FamHub._1._0._0.Controllers
             return View();
         }
 
-
-
     }
 }
