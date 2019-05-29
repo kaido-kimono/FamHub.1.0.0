@@ -15,6 +15,12 @@ namespace FamHub._1._0._0.Controllers
             return View("Acceuil");
         }
 
-        
+        public String CreationCompte()
+        {
+            return "vous etes pret pour la creation";
+        }
+
+
+
     }
 }

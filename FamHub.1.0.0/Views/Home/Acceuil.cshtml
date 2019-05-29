@@ -1,7 +1,7 @@
-﻿@Model FamHub._1._0._0.Models.Utilisateurs
+﻿
 
 @{
-    ViewData["Title"] = "Acceuil";
+    Layout = null;
 }
 
 <!DOCTYPE html>
@@ -17,7 +17,10 @@
         <p>
             <label>Mot de passe :</label>
         </p>
-        
+        <button type="submit">Connexion</button>
+        <p>
+            <a asp-action="CreationCompte">creer un compte</a>
+        </p>
     </form>
 </body>
 </html>
