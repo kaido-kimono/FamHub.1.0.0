@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace FamHub._1._0._0.Models
 {
-    public class Utilisateurs
+    [Serializable]
+    public class Utilisateur
     {
         public string Nom { get; set; }
         public string PostNom { get; set; }
@@ -16,7 +17,5 @@ namespace FamHub._1._0._0.Models
         public string MotDePasse { get; set; }
         public string NumeroDeTelephone { get; set; }
         public string IdFamille { get; set; }
-        
-
     }
 }

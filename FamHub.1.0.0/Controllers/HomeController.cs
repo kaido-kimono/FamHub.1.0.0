@@ -16,7 +16,7 @@ namespace FamHub._1._0._0.Controllers
         }
 
         [HttpPost]
-        public ViewResult CreationCompte()
+        public ViewResult CreationCompte(Utilisateur utilisateur)
         {
             return View();
         }
